@@ -161,9 +161,9 @@
 }
 .for-card{
     display: flex;
+    justify-content: center;
+    align-items: center;
     justify-content: space-evenly;
-    margin-top: 30px;
-    margin: 10px;
 }
 .card1{
     background-color: rgb(231, 231, 231);
@@ -240,7 +240,7 @@
 }
 .maps{
     background-color: rgb(26, 26, 26);
-    height: 1100px;
+    height: 1400px;
     width: 100%;
 }
 #down{
@@ -262,7 +262,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    justify-items: center;
     justify-content: space-evenly;
+    
 }
 @media only screen and (max-width:800px){
     .f-branch{
@@ -275,4 +277,30 @@
         margin-top: 10px;
     }
     
+}
+.fran-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.franchises{
+    padding-top: 20px;
+}
+@media only screen and (max-width:800px) {
+    .fran-content{
+        display: block;      
+    }
+    .maps{
+        height: 1550px;
+    }
+    
+}
+.village{
+    background-color: white;
+    height: 170px;
+    width: 550px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    margin-top: 10px;
 }
